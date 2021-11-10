@@ -1,22 +1,7 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -28,23 +13,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">music-generator</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Multi-Instrument music generation using C-RNN-GAN with MIDI format input
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/seyedsaleh/music-generator">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/seyedsaleh/music-generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/seyedsaleh/music-generator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -209,9 +191,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Seyedmohammadsaleh Mirzatabatabaei - [@seyedsaleh](https://github.com/seyedsaleh) - seyedsaleh.edu@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Salman Amimotlagh - [@SMotlaq](https://github.com/SMotlaq) - pilot.motlaq@gmail.com
+
+
+Project Link: [https://github.com/seyedsaleh/music-generator](https://github.com/seyedsaleh/music-generator)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -247,4 +232,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/seyedsaleh/music-generator/issues
 [license-shield]: https://img.shields.io/github/license/seyedsaleh/music-generator.svg?style=for-the-badge
 [license-url]: https://github.com/seyedsaleh/music-generator/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://user-images.githubusercontent.com/47852354/141186269-d31ec094-8061-4edc-b862-8e1deb3da46f.png
