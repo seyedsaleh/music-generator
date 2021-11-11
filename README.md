@@ -53,6 +53,8 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#refereces">Refereces</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -84,14 +86,11 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python 3.8](https://www.python.org/)
+* [Tensorflow , Keras](https://www.tensorflow.org/)
+* [Midi2audio](https://github.com/bzamecnik/midi2audio)
+* [Music21](https://web.mit.edu/music21/)
+* [Numpy](https://numpy.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -188,6 +187,33 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
+<!-- DATASET -->
+## Dataset
+
+GiantMIDI-Piano is a classical piano MIDI dataset contains 10,854 MIDI files of 2,786 composers. The curated subset by constraining composer surnames contains 7,236 MIDI files of 1,787 composers. GiantMIDI-Piano are transcribed from live recordings with a high-resolution piano transcription system.
+[find out more on Github](https://github.com/bytedance/GiantMIDI-Piano)
+* *Qiuqiang Kong, Bochen Li, Jitong Chen, and Yuxuan Wang. "GiantMIDI-Piano: A large-scale MIDI dataset for classical piano music." arXiv preprint arXiv:2010.07061 (2020). https://arxiv.org/pdf/2010.07061* 
+
+This model has been trained on a NVIDIA GeForce GTX 1080Ti GPU. 
+To download the trained model (.h5 keras compatible format) contact us.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- REFERENCES -->
+## Refereces
+
+[1] *Mogren, Olof. (2016). C-RNN-GAN: Continuous recurrent neural networks with adversarial training. [arXiv:1611.09904](https://arxiv.org/abs/1611.09904).* 
+
+[2] *“Generating Music with GANs—An Overview and Case Studies” at ISMIR 2019 (November 4th at Delft, The Netherlands). [salu133445.github.io/ismir2019tutorial](https://salu133445.github.io/ismir2019tutorial/).* 
+
+[3] *Goodfellow, Ian & Pouget-Abadie, Jean & Mirza, Mehdi & Xu, Bing & Warde-Farley, David & Ozair, Sherjil & Courville, Aaron & Bengio, Y.. (2014). Generative Adversarial Nets.  [ArXiv](https://arxiv.org/abs/1406.2661).* 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 <!-- CONTACT -->
 ## Contact
 
@@ -217,6 +243,15 @@ Use this space to list resources you find helpful and would like to give credit 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+---
+<div align="center">
+<p>
+ <img src="https://user-images.githubusercontent.com/47852354/138564509-b5dffb4e-f48b-4db5-b8a4-1385ef2b22c8.png" width="110">
+ <img src="https://user-images.githubusercontent.com/47852354/138607395-e18bfc7a-204c-495a-914f-bd5cf8436ca4.jpg" width="70">
+</p>
+</div>
 
 
 
