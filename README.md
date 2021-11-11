@@ -19,7 +19,7 @@
   <p align="center">
     Multi-Instrument music generation using C-RNN-GAN with MIDI format input
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/seyedsaleh/music-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/seyedsaleh/music-generator">View Demo</a>
@@ -43,20 +43,13 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Parts</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#refereces">Refereces</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
   </ol>
 </details>
 
@@ -93,30 +86,34 @@ Major frameworks/libraries used to this project:
 
 <!-- PARTS -->
 ## Project Parts
+
+**MIDI format**
+an acronym for Musical Instrument Digital Interface, a technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers.
+
+
+**Music21** is a powerful library in python whose tools are very helpful for creating, analysis and processing of audio files like songs, melodies and etc..
+In this project, we have used this library for our purposes of converting the MIDI files into notes, categorizing of notes for preparing the training data, and choosing the playing instruments for the output of our GAN and converting it back to MIDI.
+
+
+**MIDI Class:**
+- Parser
+- sequence preparation
+- MIDI creation
+
+**Model Class:**
+- Discriminator
+- Generator
+- Train
+- Plot loss function
+- Save model
+
+
 **CUDA** is a parallel computing platform interface that allows software developers to use GPUs for ML computing.
 
 The project has been done with aid of GPU Computing and the use of NVIDIA cuDNN and NVIDIA CUDA Toolkit. It helped us to use Tensorflow with GPU support for computing and learning with more compatibility.
 The model has been trained on an **NVIDIA GeForce GTX 1080Ti GPU**.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 
@@ -184,6 +181,19 @@ Project Link: [https://github.com/seyedsaleh/music-generator](https://github.com
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Multi-instrument by partitioning and joining each part (Muic21 Instrument package)
+- [ ] Use offset, duration, velocity with pyPianoroll package
+- [ ] UI mobile and desktop application to create music
+- [ ] using CGANs network to avoid falchs
+See the [open issues](https://github.com/seyedsaleh/music-generator/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 ---
 <div align="center">
 <p>
@@ -191,7 +201,6 @@ Project Link: [https://github.com/seyedsaleh/music-generator](https://github.com
  <img src="https://user-images.githubusercontent.com/47852354/138607395-e18bfc7a-204c-495a-914f-bd5cf8436ca4.jpg" width="70">
 </p>
 </div>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -207,3 +216,4 @@ Project Link: [https://github.com/seyedsaleh/music-generator](https://github.com
 [license-shield]: https://img.shields.io/github/license/seyedsaleh/music-generator.svg?style=for-the-badge
 [license-url]: https://github.com/seyedsaleh/music-generator/blob/master/LICENSE.txt
 [product-screenshot]: https://user-images.githubusercontent.com/47852354/141186269-d31ec094-8061-4edc-b862-8e1deb3da46f.png
+
