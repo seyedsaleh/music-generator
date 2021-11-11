@@ -22,11 +22,11 @@
     <a href="https://github.com/seyedsaleh/music-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/seyedsaleh/music-generator">View Demo</a>
+    <a href="https://colab.research.google.com/drive/1T7FZd5krcsOHAki55z0GL2jeNbS7GuTq?usp=sharing">Demo Music Generation (Google Colab)</a>
     ·
-    <a href="https://github.com/seyedsaleh/music-generator/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/seyedsaleh/music-generator/issues">Request Feature</a>
+    <a href="https://colab.research.google.com/drive/1bxy2XzbMsUhgLSDcQH_ElKL7K-dGGjD-?usp=sharing">Demo Multi-Instrument Music Generation (Google Colab)</a>
+    <br />
+    <a href="https://github.com/seyedsaleh/music-generator/issues">Report Bug & Request Feature</a>
   </p>
 </div>
 
