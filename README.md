@@ -42,7 +42,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Parts</a></li>
+    <li><a href="#parts">Parts</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#datasets">Datasets</a></li>
