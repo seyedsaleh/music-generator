@@ -59,11 +59,10 @@
 
 <p> <img src="https://user-images.githubusercontent.com/47852354/141186269-d31ec094-8061-4edc-b862-8e1deb3da46f.png" width="600"> </p> 
 
+Recently, generative neural networks have taken the stage for artistic pursuits, such as image generation and photo retouching. Another area where these deep learning networks are beginning to leave a mark is in music generation. In this project, our goal is to explore the use of LSTM and GAN neural networks to generate music that seems as if it were human-made.
+By treating the notes and chords within MIDI files as discrete sequential data, we were able to train these two models and use them to generate completely new MIDI files. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Listen to our results! :smile:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
