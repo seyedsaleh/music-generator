@@ -83,7 +83,7 @@ Major frameworks/libraries used to this project:
 
 
 <!-- PARTS -->
-## Project Parts
+## Parts
 
 **MIDI format**
 an acronym for Musical Instrument Digital Interface, a technical standard that describes a communications protocol, digital interface, and electrical connectors that connect a wide variety of electronic musical instruments, computers.
