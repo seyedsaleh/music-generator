@@ -194,7 +194,7 @@ Project Link: [https://github.com/seyedsaleh/music-generator](https://github.com
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Multi-instrument by partitioning and joining each part (Muic21 Instrument package)
+- [x] Multi-instrument by partitioning and joining each part (Music21 Instrument package)
 - [ ] Use offset, duration, velocity with pyPianoroll package
 - [ ] UI mobile and desktop application to create music
 - [ ] using CGANs network to avoid falchs
